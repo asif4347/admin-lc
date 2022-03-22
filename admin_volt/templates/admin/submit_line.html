@@ -4,19 +4,23 @@
     <div class="card-body">
         {% block submit-row %}
             {% if show_save %}
-                <button type="submit" name="_save" class="btn btn-sm btn-primary">{% trans 'Save' %}</button>
+                <!-- <button type="submit" name="_save" class="btn btn-sm btn-primary">{% trans 'Save' %}</button> -->
+                <button type="submit" name="_save" class="btn btn-sm bg-secondary">{% trans 'Save' %}</button>
             {% endif %}
 
             {% if show_save_as_new %}
-                <button type="submit" name="_saveasnew" class="btn btn-sm btn-success">{% trans 'Save as new' %}</button>
+                <!-- <button type="submit" name="_saveasnew" class="btn btn-sm btn-success">{% trans 'Save as new' %}</button> -->
+                <button type="submit" name="_saveasnew" class="btn btn-sm bg-secondary">{% trans 'Save as new' %}</button>
             {% endif %}
 
             {% if show_save_and_add_another %}
-                <button type="submit" name="_addanother" class="btn btn-sm btn-info">{% trans 'Save and add another' %}</button>
+                <!-- <button type="submit" name="_addanother" class="btn btn-sm btn-info">{% trans 'Save and add another' %}</button> -->
+                <button type="submit" name="_addanother" class="btn btn-sm bg-secondary">{% trans 'Save and add another' %}</button>
             {% endif %}
 
             {% if show_save_and_continue %}
-                <button type="submit" name="_continue" class="btn btn-sm btn-warning">{% if can_change %}{% trans 'Save and continue editing' %}{% else %}{% trans 'Save and view' %}{% endif %}</button>
+                <!-- <button type="submit" name="_continue" class="btn btn-sm btn-warning">{% if can_change %}{% trans 'Save and continue editing' %}{% else %}{% trans 'Save and view' %}{% endif %}</button> -->
+                <button type="submit" name="_continue" class="btn btn-sm bg-secondary">{% if can_change %}{% trans 'Save and continue editing' %}{% else %}{% trans 'Save and view' %}{% endif %}</button>
             {% endif %}
 
             {% if show_close %}

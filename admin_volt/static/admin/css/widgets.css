@@ -29,16 +29,22 @@
 
 .selector-chosen h2 {
     margin-bottom: 0;
-    background: #1f2937;
-    color: #fff;
+    /* background: #1f2937;
+    color: #fff; */
+    background: linear-gradient(87deg
+     , #027975, #211860 100%) !important;
+    color: white !important;
     font-size: 20px;
     padding: 8px;
 }
 
 .selector .selector-available h2 {
     margin-bottom: 0;
-    background: #644f97;
-    color: #fff;
+    /* background: #644f97;
+    color: #fff; */
+    background: linear-gradient(87deg
+     , #027975, #211860 100%) !important;
+    color: white !important;
     font-size: 20px;
     padding: 8px;
 }
@@ -593,11 +599,13 @@ select + .related-widget-wrapper-link,
 
 .help{
     font-size: 13px;
-    color: #0000007a;
+    /* color: #0000007a; */
+    color: #ffffff !important;
     margin: 5px 0 0 5px !important;
 }
 
-.help a {color: #6464ff;}
+/* .help a {color: #6464ff;} */
+.help a {color: #ffffff;}
 
 .help ul {
     margin-left: 15px !important;
@@ -607,13 +615,14 @@ select + .related-widget-wrapper-link,
     font-size: 13px !important;
 }
 
-/*.help-icon li {*/
-/*    font-size: 13px !important;*/
-/*    color: #0000007a !important;*/
-/*}*/
+/* .help-icon li {
+   font-size: 13px !important;
+   color: #ffffff !important;
+} */
 
 .clockbox h2{
     background-color: #1f2937;
+    /* background-color: #ffffff; */
     color: white;
     font-size: 23px;
     padding: 6px;
